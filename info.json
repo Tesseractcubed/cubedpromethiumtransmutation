@@ -1,0 +1,12 @@
+{
+    "name": "cubedpromethiumtransmutation",
+    "version": "0.0.1",
+    "title": "Promethium Transmutation",
+    "author": "Tesseractcubed",
+    "description": "A mod that allows for transmuting promethium chunks into nonrenewable resources. Designed for use on ribbon worlds or others where resources are limited.",
+    "factorio_version": "2.0",
+    "dependencies": [
+      "base >= 2.0",
+      "space-age >= 2.0"
+    ]
+  }

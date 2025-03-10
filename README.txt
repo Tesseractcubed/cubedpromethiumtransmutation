@@ -36,3 +36,11 @@ landing pad with this process is too much for a typical player, in my opinion.
 Pentapod eggs are a joke for the logistics required, and Gleba infrastructure required to efficiently transport these.
 Also, we already work with biter eggs, why not pentapod eggs?
 
+Also, verbose comments 
+
+Changelog:
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: March 9, 2025
+    Initial concepts.
+---------------------------------------------------------------------------------------------------
