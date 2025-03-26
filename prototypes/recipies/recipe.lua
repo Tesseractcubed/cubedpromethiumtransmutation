@@ -8,8 +8,16 @@ data:extend({
         icon = "__cubedpromethiumtransmutation__/graphics/icons/placeholder-graphic.png",
 		icon_size = 128,
         category = "centrifuging",
+		surface_conditions =
+		{
+		  {
+			property = "pressure",
+			min = 1000,
+			max = 1000
+		  }
+		},	
 		subgroup = "transmutation",
-    	order = "a[transmutation]-a[uranium-transmutation]",
+    	order = "a[transmutation]-a[simple-transmutation]",
 		energy_required = 60,
 		ingredients = {
 			{ type = "item", name = "depleted-uranium-fuel-cell", amount = 1 },
@@ -30,14 +38,22 @@ data:extend({
         icon = "__cubedpromethiumtransmutation__/graphics/icons/placeholder-graphic.png",
 		icon_size = 128,
         category = "metallurgy",
+		surface_conditions =
+		{
+		  {
+			property = "pressure",
+			min = 4000,
+			max = 4000
+		  }
+		},
 		subgroup = "transmutation",
-    	order = "a[transmutation]-b[tungsten-transmutation]",
+    	order = "a[transmutation]-b[simple-transmutation]",
 		energy_required = 60,
 		ingredients = {
 			{ type = "item", name = "tungsten-plate", amount = 2},
-			{ type = "fluid", name = "lava", amount = 1000},
 			{ type = "item", name = "coal", amount = 5},
-            { type = "item", name = "promethium-asteroid-chunk", amount = 1 },
+            { type = "item", name = "promethium-asteroid-chunk", amount = 3},
+			{ type = "fluid", name = "lava", amount = 1000},
 		},
         main_product = "",
 		results = {
@@ -53,17 +69,28 @@ data:extend({
         icon = "__cubedpromethiumtransmutation__/graphics/icons/placeholder-graphic.png",
 		icon_size = 128,
         category = "electromagnetics",
+		surface_conditions =
+		{
+		  {
+			property = "magnetic-field",
+			min = 99,
+			max = 99
+		  }
+		},
 		subgroup = "transmutation",
-    	order = "a[transmutation]-c[scrap-transmutation]",
+    	order = "a[transmutation]-c[simple-transmutation]",
 		energy_required = 60,
 		ingredients = {
-			{ type = "fluid", name = "sulfuric-acid", amount = 25},
-			{ type = "fluid", name = "electrolyte", amount = 20},
-            { type = "item", name = "promethium-asteroid-chunk", amount = 1 },
+			{ type = "fluid", name = "petroleum", amount = 25},
+			{ type = "fluid", name = "holmium-solution", amount = 100},
+            { type = "item", name = "promethium-asteroid-chunk", amount = 5},
+			{ type = "item", name = "scrap", amount = 25}
+
 		},
         main_product = "",
 		results = {
-			{ type = "item", name = "scrap", amount = 10 },
+			{ type = "item", name = "scrap", amount = 45 },
+			{ type = "fluid", name = "electrolyte", amount = 20},
 		},
 		enabled = false,
 		allow_productivity = true,
@@ -75,8 +102,16 @@ data:extend({
         icon = "__cubedpromethiumtransmutation__/graphics/icons/placeholder-graphic.png",
 		icon_size = 128,
         category = "cryogenics",
+		surface_conditions =
+    	{
+    	  {
+    	    property = "pressure",
+    	    min = 300,
+    	    max = 300
+    	  }
+    	},
 		subgroup = "transmutation",
-    	order = "a[transmutation]-d[lithium-transmutation]",
+    	order = "a[transmutation]-d[simple-transmutation]",
 		energy_required = 60,
 		ingredients = {
 
