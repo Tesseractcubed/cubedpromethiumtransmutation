@@ -4,19 +4,9 @@ more raw resources. The reason I'm creating this is for very narrow ribbon world
 out of the important non-renewables, effectively soft-locking the game past a certain point.
 
 Specific resources duplicated:
-Uranium ore from Depleted Nuclear Fuel Cells, fish, and Promethium
-(single step process, except fish as a partially reused catalyst, in centrifuge)
-Tungsten ore from tungsten plate, coal, lava, and promethium
-(tungsten ore precipitation. Takes lots of time)
-Scrap from petroleum, electrolyte, holmium ore, scrap, and Promethium 
-(scrap marination in an EM plant; mostly a way to generate infinite scrap from promethium, power, and time, and 
-maybe some materials from other planets)
-Gleba... is Gleba. Except you make pentapod eggs 
-Lithuim Brine from Foundation, Fluoroketone (Hot), Pentapod Eggs, and promethium 
-(outputs lithium brine and Fluoroketone (cold), intentionally complicated.)
+Uranium ore, tungsten ore, scrap, lithium brine.
 
-
-As you can see, the method is imprecice and intended to make you work for the infinite resources
+The mod is intended to make you work for the infinite resources
 It is my opinion that cross planet fliud logistics with barrels is a pain, so I won't force it.
 All recipies will be locket to their respective planets.
 
