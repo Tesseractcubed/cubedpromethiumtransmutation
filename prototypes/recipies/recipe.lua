@@ -5,8 +5,11 @@ data:extend({
 	{
         type = "recipe",
 		name = "uranium-transmutation",
-        icon = "__base__/graphics/icons/nuclear-fuel-reprocessing.png", --Temporary Filke
+        icon = "__cubedpromethiumtransmutation__/graphics/icons/placeholder-graphic.png",
+		icon_size = 128,
         category = "centrifuging",
+		subgroup = "transmutation",
+    	order = "a[transmutation]-a[uranium-transmutation]",
 		energy_required = 60,
 		ingredients = {
 			{ type = "item", name = "depleted-uranium-fuel-cell", amount = 1 },
@@ -24,8 +27,11 @@ data:extend({
 	{
         type = "recipe",
 		name = "tungsten-transmutation",
-        icon = "__base__/graphics/icons/nuclear-fuel-reprocessing.png", --Temporary Filke
+        icon = "__cubedpromethiumtransmutation__/graphics/icons/placeholder-graphic.png",
+		icon_size = 128,
         category = "metallurgy",
+		subgroup = "transmutation",
+    	order = "a[transmutation]-b[tungsten-transmutation]",
 		energy_required = 60,
 		ingredients = {
 			{ type = "item", name = "tungsten-plate", amount = 2},
@@ -44,8 +50,11 @@ data:extend({
 	{
         type = "recipe",
 		name = "scrap-transmutation",
-        icon = "__base__/graphics/icons/nuclear-fuel-reprocessing.png", --Temporary Filke
+        icon = "__cubedpromethiumtransmutation__/graphics/icons/placeholder-graphic.png",
+		icon_size = 128,
         category = "electromagnetics",
+		subgroup = "transmutation",
+    	order = "a[transmutation]-c[scrap-transmutation]",
 		energy_required = 60,
 		ingredients = {
 			{ type = "fluid", name = "sulfuric-acid", amount = 25},
@@ -63,16 +72,26 @@ data:extend({
 	{
         type = "recipe",
 		name = "lithium-transmutation",
-        icon = "__base__/graphics/icons/nuclear-fuel-reprocessing.png", --Temporary Filke
+        icon = "__cubedpromethiumtransmutation__/graphics/icons/placeholder-graphic.png",
+		icon_size = 128,
         category = "cryogenics",
+		subgroup = "transmutation",
+    	order = "a[transmutation]-d[lithium-transmutation]",
 		energy_required = 60,
 		ingredients = {
 
-            { type = "item", name = "promethium-asteroid-chunk", amount = 1 },
+            { type = "item", name = "promethium-asteroid-chunk", amount = 7 },
+			{ type = "fluid", name = "fluoroketone-hot", amount = 25, ignored_by_stats = 5},
+			{ type = "item", name = "pentapod-egg", amount = 3},
+			{ type = "item", name="foundation", amount=1},
+			{ type = "item", name = "tree-seed", amount = 5},
+			{ type = "fluid", name = "sulfuric-acid", amount = 25},
+
 		},
         main_product = "",
 		results = {
 			{ type = "fluid", name = "lithium-brine", amount = 50 },
+			{ type = "fluid", name = "fluoroketone-cold", amount = 5, ignored_by_stats = 5, ignored_by_productivity = 5},
 		},
 		enabled = false,
 		allow_productivity = true,

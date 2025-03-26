@@ -4,7 +4,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "uranium-transmutation",
-		icon = "__cubedpromethiumtransmutation__/graphics/technology/uranium-transmutation.png",
+		icon = "__cubedpromethiumtransmutation__/graphics/technology/placeholder-graphic.png",
 		icon_size = 128,
 		effects = {
 			{
@@ -36,7 +36,7 @@ data:extend({
         {
 		type = "technology",
 		name = "tungsten-transmutation",
-		icon = "__cubedpromethiumtransmutation__/graphics/technology/uranium-transmutation.png",
+		icon = "__cubedpromethiumtransmutation__/graphics/technology/placeholder-graphic.png",
 		icon_size = 128,
 		effects = {
 			{
@@ -68,7 +68,7 @@ data:extend({
         {
 		type = "technology",
 		name = "scrap-transmutation",
-		icon = "__cubedpromethiumtransmutation__/graphics/technology/uranium-transmutation.png",
+		icon = "__cubedpromethiumtransmutation__/graphics/technology/placeholder-graphic.png",
 		icon_size = 128,
 		effects = {
 			{
@@ -100,7 +100,7 @@ data:extend({
         {
 		type = "technology",
 		name = "lithium-transmutation",
-		icon = "__cubedpromethiumtransmutation__/graphics/technology/uranium-transmutation.png",
+		icon = "__cubedpromethiumtransmutation__/graphics/technology/placeholder-graphic.png",
 		icon_size = 128,
 		effects = {
 			{
