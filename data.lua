@@ -1,2 +1,3 @@
-require("__cubedpromethiumtransmutation__/prototypes/technology/technology")
-require("__cubedpromethiumtransmutation__/prototypes/recipies/recipe")
+require("prototypes/technology/technology")
+require("prototypes/recipies/recipe")
+require("prototypes.item-groups")
