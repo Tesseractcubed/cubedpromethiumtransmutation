@@ -81,7 +81,7 @@ data:extend({
     	order = "a[transmutation]-c[simple-transmutation]",
 		energy_required = 60,
 		ingredients = {
-			{ type = "fluid", name = "petroleum", amount = 25},
+			{ type = "fluid", name = "petroleum-gas", amount = 25},
 			{ type = "fluid", name = "holmium-solution", amount = 100},
             { type = "item", name = "promethium-asteroid-chunk", amount = 5},
 			{ type = "item", name = "scrap", amount = 25}
